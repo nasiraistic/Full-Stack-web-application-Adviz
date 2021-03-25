@@ -47,6 +47,7 @@ class Login extends React.Component {
         document.getElementById("header").style.display = "block";
       })
       .catch((error) => {
+        window.alert("Invalid login data!");
         console.log(error);
       });
   }

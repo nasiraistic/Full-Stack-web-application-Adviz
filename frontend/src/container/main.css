@@ -1,12 +1,7 @@
 .map {
-  /*float: left;
-    margin-left: 3%;
-    margin-top: 5%;
-    width: 100%;
-    border-color: #5680e9;*/
-  height: 50vh;
-  width: 110vh;
+  height: 400px;
+  width: 700px;
   float: left;
-  margin-left: 3.3%;
-  margin-top: 5%;
+  margin-left: 60px;
+  margin-top: 60px;
 }

@@ -441,7 +441,7 @@ class Main extends React.Component {
 
     return (
       <div className="main" id="main">
-        <h1 id="header">Welcome {this.props.currentUser} </h1>
+        <h1 id="header">Welcome {this.props.currentUser}</h1>
 
         <br />
         <br />
@@ -593,7 +593,7 @@ class Main extends React.Component {
           </label>
           <br />
           <button type="submit" className="button" onClick={this.onAdd}>
-            Update
+            Add
           </button>
           <button type="button" className="button" onClick={this.cancle}>
             Cancel
@@ -693,7 +693,7 @@ class Main extends React.Component {
 
           <br />
           <button type="submit" className="button" onClick={this.onAdd}>
-            Update
+            Add
           </button>
           <button type="button" className="button" onClick={this.cancle}>
             Cancel
