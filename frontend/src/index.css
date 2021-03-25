@@ -1,0 +1,163 @@
+body {
+  background: #faf9f9;
+  font-family: "Roboto", sans-serif, monospace, arial;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 12px;
+  margin-bottom: 10px;
+  display: inline-block;
+  border: 1px solid #716be3;
+  box-sizing: border-box;
+}
+#header {
+  display: none;
+  color: #5c3dfa;
+}
+#loginScreen {
+  width: 100%;
+  height: 100%;
+  background-image: url("./container/pic.png");
+  background-size: 600px;
+  background-repeat: no-repeat;
+
+  background-position-x: 200px;
+  background-position-y: 50%;
+}
+
+button {
+  background-color: #5c3dfa;
+  color: #e3def5;
+  padding: 20px 20px;
+  margin: 2px 2px;
+  cursor: pointer;
+  border: 1px solid #5c3dfa;
+  border-style: none;
+}
+button:hover {
+  background-color: #fae0fa;
+  color: rgb(45, 29, 48);
+}
+#loginForm {
+  margin-top: 15%;
+  margin-left: 630px;
+  width: 40%;
+  height: 60%;
+}
+#loginbtn {
+  margin: auto;
+  width: 100%;
+  border-style: none;
+}
+h1 {
+  padding-top: 40px;
+  color: #5c3dfa;
+  text-align: center;
+}
+#adviz {
+  margin-top: 5%;
+}
+
+#form {
+  margin-top: 10%;
+  margin-left: 50%;
+  width: 40%;
+  height: 60%;
+}
+::placeholder {
+  text-align: center;
+  font-style: italic;
+}
+#content {
+  text-align: center;
+  margin: auto;
+  width: 40%;
+  height: 40%;
+  padding-top: 50px;
+}
+
+#main {
+  display: none;
+}
+
+.sidenav {
+  margin-left: 16%;
+  margin-top: 5%;
+  float: left;
+  width: 11%;
+}
+
+.buttons {
+  display: none;
+  overflow: auto;
+  text-align: center;
+  margin-left: 16%;
+  border-style: none;
+}
+#cancel {
+  margin-left: 33%;
+  background-color: #5c3dfa;
+}
+select {
+  padding: 10px;
+  margin: auto;
+}
+#add {
+  display: none;
+  position: relative;
+  left: 20%;
+  width: 50%;
+  height: 80%;
+  z-index: 2;
+  margin: 5%;
+  border: 10px;
+  padding: 50px;
+  overflow: auto;
+  width: 40%;
+  text-align: center;
+}
+#update {
+  display: none;
+  position: relative;
+  left: 20%;
+  width: 50%;
+  height: 60%;
+  z-index: 2;
+  margin: 5%;
+
+  padding: 50px;
+  overflow: auto;
+  width: 40%;
+  text-align: center;
+}
+
+#mapid {
+  z-index: 1;
+  height: 400px;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s;
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes animatezoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
