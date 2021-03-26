@@ -574,6 +574,7 @@ class Main extends React.Component {
           ></input>
           <br />
           <label htmlFor="privateFlag">
+            Private:
             <input
               type="text"
               defaultValue={this.state.privateFlag}
@@ -683,6 +684,7 @@ class Main extends React.Component {
           ></input>
           <br />
           <label htmlFor="privateFlag">
+            Private:
             <input
               type="text"
               defaultValue={this.state.privateFlag}
@@ -826,6 +828,7 @@ class Main extends React.Component {
                 onChange={this.onChangeInfos}
               ></input>
               <br />
+              <label>Private:</label>
               <input
                 defaultValue={checked}
                 type="checkbox"
@@ -943,7 +946,9 @@ class Main extends React.Component {
                   onChange={this.onChangeInfos}
                 ></input>
                 <br />
+                <label>Private:</label>
                 <input
+                  checked={checked}
                   defaultValue={checked}
                   type="checkbox"
                   onChange={this.onChangeCheckbox}
