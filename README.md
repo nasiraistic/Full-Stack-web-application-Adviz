@@ -7,4 +7,5 @@ An Admin has the same functionalities + can also see and edite normal users' lis
 
 The application is developed using React.js for frontend, Node.js and MongoDB for backend. 
 
-### Run `npm start` to start the application
+### Locate to the folder `api` and run `node app.js` to start the backend
+### Locate to the folder `frontend` and run `npm start` to start the frontend
